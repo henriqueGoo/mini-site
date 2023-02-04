@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Quem Somos</title>
+    <style>
+        *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        list-style: none;
+        text-indent: 20px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(39, 110, 134);
+        margin: 0%;
+        position: sticky;
+        top: 0px;
+
+    }
+    header img{
+        padding: 20px 30px;
+    }
+    header > .navbar > ul{
+        display: flex;
+        margin-right: 50px;
+    }
+    header > .navbar > ul > li > a{
+        text-decoration: none;
+        color: white;
+    }
+    header > .navbar > ul > li> a:hover{
+        background-color: lightblue;
+        color: lightgray;
+    }
+    ul{
+        display: none; 
+        background-color: rgb(39, 110, 134);
+        text-align: center;
+    }
+    ul > li > a{
+        color: white;
+        text-decoration: none;
+        padding-top: 10px;
+        
+    }
+    ul li{
+        padding-top: 10px;
+    }
+    .material-icons{
+        display: none;
+        flex-direction: row-reverse;
+        margin-right: 20px;
+        align-items: center;
+        color: white;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    main > section > article > h2{
+        text-align: center;
+        margin: 20px;
+    }
+    main > section > article > p{
+        padding: 0% 10%;
+        line-height: 20px;
+        margin: 10px;
+        text-align: justify;
+    }
+    section{
+        margin: 4   0px 0px;
+    }
+     .motivos{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.239);
+        margin: 40px 0px;
+        padding: 40px;
+        
+        
+    
+    }
+    .motivos div{
+        display: flex;
+        flex-direction: column;
+        width: 220px;
+        height: 270px;
+        border-radius: 10px;
+        margin: 20px 0px;
+        padding: 0px 10px;
+        box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.518);
+        box-shadow: 0px 0px 10px rgb(107, 181, 205);
+        gap: 10px;
+    }
+    .motivos h2{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 2em;
+        color:  rgb(39, 110, 134);
+    }
+    .motivos p{
+        text-align: center;
+        color:  rgb(20, 56, 68) ;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .motivos > div > .normal{
+        font-weight: 300;
+        text-align: justify;
+    }
+    @media screen and (max-width: 650px) {
+        header img{
+            margin: auto;
+            width: 200px;
+        }
+        .material-icons{
+            display: flex;
+        }
+        header ul.menu{
+            display: none;
+            
+        }
+       
+
+   }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="arquivos-necessarios-projetos-unes/arquivos-necessarios-projetos-unes/logo.png" alt="logo UNES">
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="quem-somos.html">QUE SOMOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+            <span class="material-icons" onclick="clicou()">menu</span>
+        </nav>
+    </header>
+    <ul class="menu01">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="quem-somos.html">QUE SOMOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+    </ul>
+    <span class="material-icons" onclick="clicou()">menu</span>
+    <main>
+        <section>
+            <article>
+                <h2>Quem somos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quod sed assumenda tempora, quisquam totam minus quas, officia ratione inventore odit nisi voluptas suscipit laudantium voluptatum ab, quaerat ea. Quae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam aliquam quod incidunt enim nobis, accusantium, animi error ratione dicta sapiente impedit, quis consequatur temporibus nisi. Ex voluptatibus quis porro tempora? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sed blanditiis quos animi, cupiditate fuga corporis, sunt ad dolorem, qui mollitia! Vero ad illum eum ducimus nesciunt iste deserunt odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit qui nobis placeat repellat dolor molestiae? Repudiandae vitae sed alias optio natus nam aut nulla quam sit. Unde molestiae dolorum dolores. lorem]</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ducimus aut natus quia, molestias nulla et modi maxime eveniet laboriosam voluptate provident necessitatibus autem nesciunt officiis at facere vitae vero.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem sapiente, fuga ut voluptatibus et magnam. Dolorem, unde nobis. Facere consequatur recusandae temporibus numquam minus? Facere, provident! Consequatur, laboriosam! Esse, asperiores.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam velit saepe veritatis exercitationem et dignissimos itaque quibusdam vel? Quasi omnis repudiandae in quis minima enim autem, molestias quisquam natus aliquam.</p>
+            </article>
+        </section>
+        <section>
+            <div class="motivos">
+               
+                <div><h2>1°</h2><p>Material sempre atualizado</p>
+                </p> <p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates illum fugit, tenetur doloremque praesentium deleniti rem, eos voluptatibus officia optio, nostrum dolore mollitia perspici
+                </p></div>
+                <div><h2>2°</h2><p>Tablets em sala de aula</p><p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates illum fugit, tenetur doloremque praesentium deleniti rem, eos voluptatibus officia optio, nostrum dolore mollitia perspici
+                </p></div>
+                <div><h2>3°</h2><p>Professores Renomados</p><p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates illum fugit, tenetur doloremque praesentium deleniti rem, eos voluptatibus officia optio, nostrum dolore mollitia perspici
+                </p> </div>
+                <div><h2>4°</h2><p>univesidade bem avaliada</p><p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates illum fugit, tenetur doloremque praesentium deleniti rem, eos voluptatibus officia optio, nostrum dolore mollitia perspici
+                </p></div>
+                <div><h2>5°</h2><p>Ótima localização</p><p class="normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates illum fugit, tenetur doloremque praesentium deleniti rem, eos voluptatibus officia optio, nostrum dolore mollitia perspici
+                </p></div>
+            
+            </div>
+        </section>
+        <section>
+            <article>
+                <h2>Objetivos</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero nemo unde excepturi, qui at dolorum voluptatum voluptates quas veritatis est temporibus illo, sit nisi quos cum hic molestiae, exercitationem magnam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis voluptatum excepturi vitae, dicta pariatur, in aperiam veritatis consequatur aut magni, nobis blanditiis ullam inventore cumque ipsum voluptatem. Laboriosam, nostrum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt obcaecati culpa voluptatum similique, a dolore corporis nisi quod quaerat doloremque fugiat labore saepe enim blanditiis temporibus unde aspernatur. Similique, minus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam quam inventore quia quibusdam doloribus reiciendis sequi! Assumenda, culpa minima! Illo aut consequuntur adipisci modi nisi voluptate commodi debitis voluptatum maxime!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quos molestiae, nostrum sed iusto at recusandae beatae consectetur commodi quis ipsam debitis dolorum quod. Quam officiis officia expedita minus eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime error soluta incidunt, dolore quae similique optio nostrum veniam adipisci molestias consequatur unde, asperiores, illum commodi distinctio fuga. Et, cumque exercitationem.</p>
+            </article>
+        </section>
+     
+        <script>
+            function clicou(){
+                var menu01 = document.querySelector('ul.menu01')
+                var intens_menu = document.querySelector('ul.menu01')
+
+                if(menu01.style.display == "none"){
+                    menu01.style.display = "block"
+                    intens_menu.style.display = "block"
+                } else {
+                    menu01.style.display = "none"
+                }
+            }
+        </script>
+
+</body>
+</html>
